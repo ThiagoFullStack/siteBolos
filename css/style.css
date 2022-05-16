@@ -1244,10 +1244,16 @@ header .contact-btn{
     margin-top: 200px;
 }
 .card {
+    display: inline-block;
     width: 125%;
     margin: 10%;
     margin-left: -60px;
 }
+/* .servicos img{
+    width: 125%;
+    margin: 10%;
+    margin-left: -60px;
+} */
 
 .limao{
     margin-bottom: 1%;
