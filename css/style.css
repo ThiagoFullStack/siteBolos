@@ -8,6 +8,7 @@
 
 html,body {
     margin: 0;
+    padding: 0;
     font-family: 'Roboto', sans-serif;
     background: #FFB8C9;
     overflow-x: hidden !important;
@@ -1130,8 +1131,7 @@ label .imgInst{
     width: 100%;
 }
 #logo h1, a, f{
-    font-size: 30px;
-    /* margin-left: 200px; */
+    font-size: 25px;
 } 
 
 .menu a{
@@ -1214,39 +1214,39 @@ header .contact-btn{
     position: absolute;
     top: -170px;
     left: 60px;
-    margin-left: -20px;
-    width: 320px;
+    margin-left: 65px;
+    width: 230px;
 }
 
 .bolo img{
     position: absolute;
     top: -190px;
-    left: 490px;
-    width: 360px;
+    left: 520px;
+    width: 280px;
 }
 
 .biscoito img{
-    top: 710px;
+    top: 610px;
     margin-left: 360px;
-    width: 150px;
+    width: 110px;
 }
 
 .pote img{
-    top: 650px;
-    margin-left: 260px;
-    width: 150px;
+    top: 560px;
+    margin-left: 275px;
+    width: 110px;
 }
 
 
 /*  AQUI COMEÇA O CARD  */
 
 #sobre{
-    margin-top: 350px;
+    margin-top: 200px;
 }
 .card {
-    width: 139%;
+    width: 130%;
     margin: 6%;
-    margin-left: -80px;
+    margin-left: -70px;
 }
 
 .limao{
@@ -1332,14 +1332,14 @@ section .gourmet-p p{
 .instFloat{
     position: fixed;
     bottom: 110px;
-    right: 80px;
+    right: 40px;
     width: 30px;
 }
 /* ICONE */
 section .whats{
     position: fixed;
     bottom: 65px;
-    right: 80px;
+    right: 40px;
     width: 30px;
 }
 
@@ -1349,9 +1349,9 @@ label .imgNome{
 }
 
 label .imgInst{
-    width: 350px;
+    width: 320px;
     height: 250px;
-    margin-left: -38px;
+    margin-left: -18px;
     margin-bottom: -90px;
 }
 
