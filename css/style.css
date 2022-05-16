@@ -1244,9 +1244,9 @@ header .contact-btn{
     margin-top: 200px;
 }
 .card {
-    width: 130%;
-    margin: 6%;
-    margin-left: -70px;
+    width: 125%;
+    margin: 10%;
+    margin-left: -60px;
 }
 
 .limao{
@@ -1266,11 +1266,11 @@ section .servicos{
 }
 
 .texto-oculto h3{
-    font-size: 14px;
+    font-size: 25px;
 }
 
 .texto-oculto p{
-    font-size: 9px;
+    font-size: 20px;
 }
 
 /*  AQUI COMEÇA O GOURMET  */
