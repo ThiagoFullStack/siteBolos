@@ -2,15 +2,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 *{
+    margin: 0;
+    padding: 0;
     /* incorporar margin e padding tudo dentro de uma caixa */
     box-sizing: border-box;
 }
 
 html,body {
-    margin: 0;
-    padding: 0;
     font-family: 'Roboto', sans-serif;
     background: #FFB8C9;
+    display: inline;
     overflow-x: hidden !important;
 }
 
@@ -215,7 +216,7 @@ section h2{
     box-shadow: 0 4px 8px 0 rgba(0,0,2,0.5), 0 6px 20px 0 rgba(0,0,2,0.19);
 }
 .card-text{
-    margin-top: -20px;
+    margin-top: 15px;
 
 }
 
@@ -821,15 +822,15 @@ label .imgInst{
 .instFloat{
     position: fixed;
     bottom: 80px;
-    right: 70px;
-    width: 50px;
+    right: 100px;
+    width: 40px;
 }
 
 section .whats{
     position: fixed;
     bottom: 15px;
-    right: 70px;
-    width: 50px;
+    right: 100px;
+    width: 40px;
 } 
 
 /***  AQUI COMEÇA O FOOT  ***/
@@ -1075,14 +1076,14 @@ section .gourmet-p p{
     position: fixed;
     bottom: 140px;
     right: 80px;
-    width: 55px;
+    width: 45px;
 }
 
 section .whats{
     position: fixed;
     bottom: 65px;
     right: 80px;
-    width: 55px;
+    width: 45px;
 }
 
 label .imgNome{
@@ -1125,6 +1126,11 @@ label .imgInst{
 
 /************************** Media Queries 360px **************************/
 @media(max-width: 360px){
+
+html,body {
+    display: inline-block;
+    overflow-x: hidden !important;
+}
 
 /*Aqui começa a parte do MENU que se referente a parte da NAVEGAÇÃO */
 .navbar{
@@ -1251,11 +1257,6 @@ header .contact-btn{
     margin: 10%;
     margin-left: -60px;
 }
-/* .servicos img{
-    width: 125%;
-    margin: 10%;
-    margin-left: -60px;
-} */
 
 .limao{
     margin-bottom: 1%;
@@ -1306,22 +1307,22 @@ section .gourmet-p p{
 /*  AQUI COMEÇA AS REDES-SOCIAIS  */
 
 .redes-sociais-h h1{
-    font-size: 30px;
+    font-size: 40px;
     margin-bottom: 15px;
     padding-top: 190px;
     margin-left: -310px;
 }
 
 .redes-sociais-h p{
-    font-size: 20px;
+    font-size: 25px;
     margin-left: -320px;
     margin-top: -10px;
 }
 
 .redes-sociais-img img{
-    width: 100%;
-    margin-left: 35px;
-    margin-top: 30px;
+    width: 130%;
+    margin-left: 0px;
+    margin-top: -60px;
 }
 
 .redes-sociais-zap img{
@@ -1340,15 +1341,15 @@ section .gourmet-p p{
 .instFloat{
     position: fixed;
     bottom: 110px;
-    right: 40px;
-    width: 30px;
+    right: 35px;
+    width: 25px;
 }
 /* ICONE */
 section .whats{
     position: fixed;
     bottom: 65px;
-    right: 40px;
-    width: 30px;
+    right: 35px;
+    width: 25px;
 }
 
 label .imgNome{
@@ -1370,7 +1371,7 @@ label .imgInst{
 }
 
 .foot{
-    width: 111%;
+    width: 100%;
     height: auto;
     padding:0;
     margin: 0;
