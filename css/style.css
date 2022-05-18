@@ -1376,9 +1376,9 @@ label .imgInst{
     padding:0;
     margin: 0;
     background-image: linear-gradient(180deg, #180F4A,#090422, black);
-    /* text-align: center; */
-    /* border-top: 5px solid #FF2978; */
-    /* margin: auto; */
+    text-align: center;
+    border-top: 5px solid #FF2978; 
+    margin: auto;
 }
 
 .foot-rodape h1{
