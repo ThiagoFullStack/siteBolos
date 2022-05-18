@@ -963,16 +963,16 @@ section .whats{
 
 .biscoito img{
     position: absolute;
-    top: 730px;
-    margin-left: 80px;
-    width: 150px;
+    top: 750px;
+    margin-left: -20px;
+    width: 130px;
 }
 
 .pote img{
     position: absolute;
-    top: 750px;
+    top: 825px;
     margin-left: -20px;
-    width: 150px;
+    width: 130px;
 }
 
 /***  AQUI COMEÇA O CARD  ***/
@@ -1360,7 +1360,7 @@ label .imgNome{
 label .imgInst{
     width: 320px;
     height: 250px;
-    margin-left: -18px;
+    margin-left: -22px;
     margin-bottom: -90px;
 }
 
@@ -1376,8 +1376,9 @@ label .imgInst{
     padding:0;
     margin: 0;
     background-image: linear-gradient(180deg, #180F4A,#090422, black);
-    text-align: center;
-    border-top: 5px solid #FF2978;
+    /* text-align: center; */
+    /* border-top: 5px solid #FF2978; */
+    /* margin: auto; */
 }
 
 .foot-rodape h1{
