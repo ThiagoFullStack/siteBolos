@@ -1128,7 +1128,7 @@ label .imgInst{
 @media(max-width: 360px){
 
 html,body {
-    display: inline-block;
+    /* display: inline-block; */
     overflow-x: hidden !important;
 }
 
@@ -1341,14 +1341,16 @@ section .gourmet-p p{
 .instFloat{
     position: fixed;
     bottom: 110px;
-    right: 35px;
+    /* right: 35px; */
+    right: 405px;
     width: 25px;
 }
 /* ICONE */
 section .whats{
     position: fixed;
     bottom: 65px;
-    right: 35px;
+    /* right: 35px; */
+    right: 405px;
     width: 25px;
 }
 
