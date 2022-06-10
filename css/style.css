@@ -1126,10 +1126,15 @@ label .imgInst{
 
 /************************** Media Queries 360px **************************/
 @media(max-width: 360px){
+    
+*{
+    
+}
 
 html,body {
-    /* display: inline-block; */
-    overflow-x: hidden !important;
+    display: inline-block;
+    margin: 0 auto;
+    overflow-x: hidden;
 }
 
 /*Aqui começa a parte do MENU que se referente a parte da NAVEGAÇÃO */
@@ -1341,17 +1346,15 @@ section .gourmet-p p{
 .instFloat{
     position: fixed;
     bottom: 110px;
-    /* right: 35px; */
-    right: 405px;
-    width: 25px;
+    right: 35px;
+    width: 35px;
 }
 /* ICONE */
 section .whats{
     position: fixed;
-    bottom: 65px;
-    /* right: 35px; */
-    right: 405px;
-    width: 25px;
+    bottom: 55px;
+    right: 35px;
+    width: 35px;
 }
 
 label .imgNome{
