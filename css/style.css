@@ -4,7 +4,7 @@
 *{
     margin: 0;
     padding: 0;
-    /* incorporar margin e padding tudo dentro de uma caixa */
+     /* incorporar margin e padding tudo dentro de uma caixa */
     box-sizing: border-box;
 }
 
