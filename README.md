@@ -3,7 +3,7 @@
 
 ![Welcome](./img/ana.png?raw=true)
 
-📋 This project is the source code made by Visual Studio code where I commit to Github to upload to Vercel, available at:  - [vercel.com (https://vercel.com/)] Access the site ➡ ( https://my-portfolio-orcin-six-12.vercel.app/ )
+📋 This project is the source code made by Visual Studio code where I commit to Github to upload to Vercel, available at:  - [vercel.com (https://vercel.com/)] Access the site ➡ ( https://confeitaria-ana-explosao-de-sabores.vercel.app/ )
 
 
 
